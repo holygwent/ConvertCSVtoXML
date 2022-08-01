@@ -1,0 +1,17 @@
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\xdeftZadanie.exe
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\xdeftZadanie.deps.json
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\xdeftZadanie.runtimeconfig.json
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\xdeftZadanie.dll
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\ref\xdeftZadanie.dll
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\xdeftZadanie.pdb
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.csproj.AssemblyReference.cache
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.AssemblyInfoInputs.cache
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.AssemblyInfo.cs
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.csproj.CoreCompileInputs.cache
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.dll
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\ref\xdeftZadanie.dll
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.pdb
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.genruntimeconfig.cache
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\48502\source\repos\xdeftZadanie\xdeftZadanie\obj\Debug\net6.0\xdeftZadanie.csproj.CopyComplete
