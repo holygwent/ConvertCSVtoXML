@@ -174,14 +174,9 @@ namespace xdeftZadanie.Services
             textWriter.WriteEndDocument();
             textWriter.Close();
         }
-        public void AddRecord(string nazwa,decimal cena,string opisA,string opisB)
+        public void AddRecord(Towar towar)
         {
-            Towars.Add(new Towar
-            {
-                Nazwa = nazwa,
-                Cena = cena,
-                Opis = new Opis { A = opisA, B = opisB }
-            });
+            Towars.Add(towar);
         }
     }
 }

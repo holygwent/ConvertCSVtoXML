@@ -1,6 +1,7 @@
 ﻿using xdeftZadanie.Services;
 
 TowarService towarService = new  TowarService();
+UserCommunicationService userCommunicationService = new UserCommunicationService();
 string option;
 bool end = true;
 string phrase="";
@@ -44,54 +45,27 @@ ChooseOption:
     {
         case "1":
             towarService.SaveToXMLRecordsOrderByName();
-            goto ChooseOption;
             break;
         case "2":
-            SetPrice:
             Console.WriteLine("Podaj cene:");
-            cenaToConvert = Console.ReadLine();
-
-            if (decimal.TryParse(cenaToConvert, out cena))
-            {
-                towarService.SaveToXMLRecordsWherePriceGreaterFrom(cena);
-
-            }
-            else
-            {
-                goto SetPrice;
-            }
-            goto ChooseOption;
+          
+            towarService.SaveToXMLRecordsWherePriceGreaterFrom(userCommunicationService.GetPrice(Console.ReadLine()));
             break;
         case "3":
             Console.WriteLine("Podaj fraze:");
-            while(phrase=="")
-            {
-                phrase = Console.ReadLine();
-            }
-            towarService.SearchPhraseInOption(phrase);
+    
+            towarService.SearchPhraseInOption(userCommunicationService.GetPhrase(Console.ReadLine()));
             phrase = "";
-            goto ChooseOption;
+        
             break;
         case "4":
             goto ChooseFile;
             break;
         case "5":
-            Console.Write("Nazwa:");
-            string nazwa = Console.ReadLine();
-            Console.Write("Cena:");
-            cenaToConvert = Console.ReadLine();
-            if (!decimal.TryParse(cenaToConvert, out cena))
-            {
-                Console.WriteLine("zła cena ");
-                goto ChooseOption;
-            }
-            Console.Write("OpisA:");
-            string opisA = Console.ReadLine();
-            Console.Write("OpisB:");
-            string opisB = Console.ReadLine();
+           
             try
             {
-                towarService.AddRecord(nazwa, cena, opisA, opisB);
+                towarService.AddRecord(userCommunicationService.GetRecord());
             }
             catch (Exception e)
             {
@@ -99,16 +73,14 @@ ChooseOption:
                 Console.WriteLine("nie udało sie dodać rekordu");
             }
         
-            goto ChooseOption;
             break;
         case "6":
             end = false;
             break;
 
-
         default:
             Console.WriteLine("Nie ma takiej opcji wybierz ponownie.");
-            goto ChooseOption;
+    
             break;
     }
 
